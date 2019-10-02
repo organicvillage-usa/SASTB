@@ -28,7 +28,29 @@ HOW TO BUILD?
 
   Clone the repository. 
   - git clone https://github.com/organicvillage-usa/SASTB.git
-  
+
+  - List contents in SASTB
+	SASTB
+   	├── License.txt
+	├── Makefile
+	├── README.txt
+	├── include
+	│   ├── readline.h
+	│   ├── sasDispatcher.h
+	│   ├── sasFuncDispatcher.h
+	│   ├── sasGlobal.h
+	│   ├── sasHelp.h
+	│   ├── sasMain.h
+	│   ├── sasThread.h
+	│   └── sasVid.h
+	└── src
+	    ├── sasDispatcher.c
+	    ├── sasFuncDispatcher.c
+	    ├── sasHelp.c
+	    ├── sasMain.c
+	    ├── sasThread.c
+	    └── sasVid.c
+
   - Change directory to SASTB
     host $ cd ~/SASTB
 
